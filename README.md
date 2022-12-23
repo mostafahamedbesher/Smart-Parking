@@ -1,42 +1,36 @@
 
-# Project Title
 # Smart-Parking
 Simple overview of use/purpose.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Automate Entering And Exiting The Parking Through Unique ID for Each Car And Controlling Available Parking Spaces.
+Based on STM32f103c6 - ARM Cortex m3
 
-## Getting Started
 
-### Dependencies
+## How Smart-Parking is Implemented
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+First I wrote Device Drivers For GPIO,RCC,UART,Timer And put them in MCAL Layer, and also I wrote LCD and KeyPad Drivers And put them in HAL Layer.
+then I used These Drivers to Write My Application.
 
-### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+## How Smart-Parking Works
 
-### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
 
-## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+### Hardware
 
-## Authors
+* STM32f103c6
+* LCD 16x2
+* Keypad 4x3
+* Two RFID Card
+* PIR sensor
+* Two Servo Motors
 
-Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+
+## Author And Contact Info
+
+ Mostafa Hamed Besher  
+ mostafahamed241@gmail.com
