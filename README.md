@@ -4,9 +4,7 @@
 
 ## Description
 
-* Automate Entering And Exiting The Parking Through Unique ID for Each Car And Controlling Available Parking Spaces.
-  Based on STM32f103c6 - ARM Cortex m3.
-* Tools : STMCubeIDE, Proteus.
+Designed and implemented an automated parking management system to streamline the entry and exit processes using unique identification for each car. Utilized the STM32f103c6 ARM Cortex M3 microcontroller for seamless control and monitoring of available parking spaces. Developed the project using STMCubeIDE for firmware development and Proteus for simulation. The "Smart Car Parking" initiative effectively showcases my proficiency in microcontroller-based systems and firmware development for real-world applications.
 
 
 
